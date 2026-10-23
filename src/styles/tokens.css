@@ -1,0 +1,32 @@
+:root,
+body {
+  /* Design Tokens */
+  --token-e54b7cfa-74b1-4f2f-a57f-e373ee4a0ca4: #ffffff;
+  --token-f78da199-5853-4724-b941-a7b8656ff4db: rgba(255, 255, 255, 0.08);
+  --token-8b086d2c-448f-4b2a-9149-bcceb22f6456: rgba(255, 255, 255, 0.7);
+  --token-27c87ea9-0318-4b1a-ba07-a42c2b4de683: #000000;
+  --token-11144164-8802-4fdd-91a6-c0ce5547e6d2: rgba(255, 255, 255, 0.16);
+  --token-eeb1eb49-7dca-481d-a3c9-3b91b8d5ae2e: #000000;
+  --token-097e5e4e-b67d-4d65-beed-3f1507fb8554: #ffffff;
+  --token-87bc7fa5-4087-4cec-914a-c13c374408c5: #fff2f9;
+  --token-77aa775b-c339-4a9c-b935-085bea04a229: #ffe6f2;
+  --token-f2173f03-df19-47b9-bfc2-a66d769c8b3a: rgba(222, 206, 214, 0.5);
+  --token-8b0090f6-70bc-431c-b09e-a2058c6a09c1: #2b2b2b;
+  --token-419394a1-565d-4952-8ba3-b4f1eb92339c: #050505;
+
+  /* Semantic aliases */
+  --bg-black: var(--token-27c87ea9-0318-4b1a-ba07-a42c2b4de683);
+  --bg-home: var(--token-8b0090f6-70bc-431c-b09e-a2058c6a09c1);
+  --text-white: var(--token-e54b7cfa-74b1-4f2f-a57f-e373ee4a0ca4);
+  --text-pink-light: var(--token-87bc7fa5-4087-4cec-914a-c13c374408c5);
+  --text-pink-soft: var(--token-77aa775b-c339-4a9c-b935-085bea04a229);
+  --text-muted-pink: var(--token-f2173f03-df19-47b9-bfc2-a66d769c8b3a);
+  --text-muted-white: var(--token-8b086d2c-448f-4b2a-9149-bcceb22f6456);
+  --border-subtle: var(--token-f78da199-5853-4724-b941-a7b8656ff4db);
+  --border-medium: var(--token-11144164-8802-4fdd-91a6-c0ce5547e6d2);
+
+  /* Fonts */
+  --font-condensed: 'Roboto Condensed', sans-serif;
+  --font-mono: 'Roboto Mono', monospace;
+  --font-sans: 'Inter', sans-serif;
+}
